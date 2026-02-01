@@ -1,19 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Folder } from 'lucide-react';
-import PixelAI from '../assets/pixelai.png';
+import PixelAI from '../assets/PixelAI.png';
 import dropshare from '../assets/dropshare.png';
-// import AIresumeBuilder from '../assets/airesumebuilder.png';
 import ecommerce from '../assets/ecommerce.png';
 import movieapp from '../assets/movieapp.png';
-// import quiz from '../assets/quiz.png';
 
 const Projects = () => {
-    // Placeholder function to simulate image imports since actual assets are missing
-    // In a real scenario, these would be: import PixelAI from '../assets/pixelai.png';
+ 
     const AIresumeBuilder = "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=800&auto=format&fit=crop";
-    // const ecommerce = "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=800&auto=format&fit=crop";
-    // const movieapp = "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=800&auto=format&fit=crop";
+   
 
     const projects = [
         {
