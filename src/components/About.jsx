@@ -11,7 +11,7 @@ const About = () => {
     ];
 
     return (
-        <section id="about" className="py-10 bg-bg-primary relative">
+        <section id="about" className="py-4 bg-bg-primary relative">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

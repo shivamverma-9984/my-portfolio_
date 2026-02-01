@@ -78,10 +78,10 @@ const Navbar = () => {
                         </div>
                     </div>
 
-                    <div className="-mr-2 flex md:hidden">
+                    <div className="flex md:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="inline-flex items-center justify-center p-2 rounded-md text-text-muted hover:text-primary hover:bg-gray-100 focus:outline-none"
+                            className="inline-flex  items-center justify-center p-2 rounded-md text-text-muted hover:text-primary hover:bg-gray-100 focus:outline-none"
                         >
                             {isOpen ? <X size={24} /> : <Menu size={24} />}
                         </button>

@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 
 const Hero = () => {
     const scrollToSection = (e, id) => {
@@ -14,7 +13,7 @@ const Hero = () => {
     };
 
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-12 bg-gradient-to-br from-indigo-50/50 via-white to-purple-50/50">
+        <section id="home" className=" w-full pt-32 pb-10 flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-indigo-50/50 via-white to-purple-50/50">
 
             {/* Subtle modern shapes */}
             <div className="absolute top-[-20%] right-[-10%] w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl mix-blend-multiply filter opacity-70 animate-blob" />
@@ -46,7 +45,7 @@ const Hero = () => {
                             to="https://drive.google.com/file/d/1CqqmB8GQLBo0HdgTg4ulLfFsFkjdkyxd/view"
                             target='_blank'
                             rel="noopener noreferrer"
-                            className="group bg-primary hover:bg-indigo-600 text-white px-8 py-3.5 rounded-full font-medium transition-all shadow-lg shadow-indigo-200 hover:shadow-indigo-300 flex items-center"
+                            className="group bg-primary hover:bg-indigo-600 text-white px-8 py-3 rounded-full font-medium transition-all shadow-lg shadow-indigo-200 hover:shadow-indigo-300 flex items-center"
                         >
                             Download CV
                             {/* <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} /> */}
@@ -54,17 +53,17 @@ const Hero = () => {
                         <Link
                             to="#contact"
                             onClick={(e) => scrollToSection(e, 'contact')}
-                            className="bg-white border border-gray-200 hover:border-primary/50 text-text-main hover:text-primary px-12 py-3.5 rounded-full font-medium transition-all shadow-sm hover:shadow-md"
+                            className="bg-white border border-gray-200 hover:border-primary/50 text-text-main hover:text-primary px-10 py-3 rounded-full font-medium transition-all shadow-sm hover:shadow-md"
                         >
                             Contact Me
                         </Link>
                     </div>
 
-                    <div className="mt-16 flex items-center justify-center gap-8">
+                    <div className="mt-12 flex items-center justify-center gap-8 ">
                         <Link to="https://github.com/shivamverma-9984/" target='_blank' rel="noopener noreferrer" className="text-gray-400 hover:text-text-main transition-colors transform hover:-translate-y-1">
                             <Github size={26} />
                         </Link>
-                        <Link href="https://www.linkedin.com/in/shivam-kumar-verma-529410220/" target='_blank' rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 transition-colors transform hover:-translate-y-1">
+                        <Link to="https://www.linkedin.com/in/shivam-kumar-verma-529410220/" target='_blank' rel="noopener noreferrer" className="text-gray-400 hover:text-blue-600 transition-colors transform hover:-translate-y-1">
                             <Linkedin size={26} />
                         </Link>
 
