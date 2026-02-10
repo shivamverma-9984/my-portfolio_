@@ -33,9 +33,9 @@ const About = () => {
                         className="flex justify-center"
                     >
                         <div className="relative w-80 h-80 md:w-96 md:h-96">
-                            <div className="absolute inset-0 bg-indigo-50 rounded-[2rem] transform rotate-6 translate-x-4 translate-y-4 -z-10" />
-                            <div className="absolute inset-0 border-2 border-primary/10 rounded-[2rem] transform -rotate-3 -translate-x-2 -translate-y-2 -z-10" />
-                            <div className="w-full h-full bg-white rounded-[2rem] shadow-xl shadow-indigo-100 flex items-center justify-center overflow-hidden border border-gray-100 relative">
+                            <div className="absolute inset-0 bg-indigo-50 rounded-4xl transform rotate-6 translate-x-4 translate-y-4 -z-10" />
+                            <div className="absolute inset-0 border-2 border-primary/10 rounded-4xl transform -rotate-3 -translate-x-2 -translate-y-2 -z-10" />
+                            <div className="w-full h-full bg-white rounded-4xl shadow-xl shadow-indigo-100 flex items-center justify-center overflow-hidden border border-gray-100 relative">
                                 <img src="shivam.jpeg" alt="Profile" className="w-full h-full object-cover" />
                             </div>
                         </div>

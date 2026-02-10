@@ -40,12 +40,12 @@ const Hero = () => {
                         A passionate Full Stack Developer crafting seamless digital experiences with modern technologies.
                     </p>
 
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-2.5 md:gap-4">
+                    <div className="flex md:flex-row items-center justify-center gap-3 md:gap-4">
                         <Link
                             to="https://drive.google.com/file/d/1CqqmB8GQLBo0HdgTg4ulLfFsFkjdkyxd/view"
                             target='_blank'
                             rel="noopener noreferrer"
-                            className="group bg-primary hover:bg-indigo-600 text-white px-8 py-3 rounded-full font-medium transition-all shadow-lg shadow-indigo-200 hover:shadow-indigo-300 flex items-center"
+                            className=" group bg-primary hover:bg-indigo-600 text-white px-6 py-2.5 md:px-8 md:py-3 rounded-full font-medium transition-all shadow-lg shadow-indigo-200 hover:shadow-indigo-300 flex items-center"
                         >
                             Download CV
                             {/* <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} /> */}
@@ -53,7 +53,7 @@ const Hero = () => {
                         <Link
                             to="#contact"
                             onClick={(e) => scrollToSection(e, 'contact')}
-                            className="bg-white border border-gray-200 hover:border-primary/50 text-text-main hover:text-primary px-10 py-3 rounded-full font-medium transition-all shadow-sm hover:shadow-md"
+                            className="bg-white border border-gray-200 hover:border-primary/50 text-text-main hover:text-primary px-7 py-2.5 md:px-10 md:py-3 rounded-full font-medium transition-all shadow-sm hover:shadow-md"
                         >
                             Contact Me
                         </Link>
