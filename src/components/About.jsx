@@ -48,12 +48,15 @@ const About = () => {
                         transition={{ duration: 0.5 }}
                     >
                         <h3 className="text-2xl font-bold mb-6 text-text-main">
-                            I'm a Developer based in India
+                            {/* I'm a Developer based in India */}
+                            Full Stack Developer
                         </h3>
                         <p className="text-text-muted mb-8 leading-relaxed text-lg">
-                            I am a dedicated software developer with a strong foundation in computer science principles.
+                            {/* I am a dedicated software developer with a strong foundation in computer science principles.
                             My journey involves building scalable web applications and exploring new technologies.
-                            I thrive in collaborative environments and love solving complex problems.
+                            I thrive in collaborative environments and love solving complex problems. */}
+                            I am a passionate full-stack developer with 2+ years of experience at TCS, specializing in the MERN stack and AWS cloud services. I have worked on building scalable web applications, RESTful APIs, and integrating cloud solutions to optimize performance and reliability. My experience includes collaborating with cross-functional teams, following agile methodologies, and delivering client-centric solutions. I enjoy learning new technologies and applying them to solve real-world problems efficiently. With a strong foundation in both frontend and backend development, I am committed to writing clean, maintainable code and continuously enhancing my skills to contribute meaningfully to any project.
+
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
