@@ -40,7 +40,7 @@ const Hero = () => {
                         A passionate Full Stack Developer crafting seamless digital experiences with modern technologies.
                     </p>
 
-                    <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                    <div className="flex flex-col md:flex-row items-center justify-center gap-2.5 md:gap-4">
                         <Link
                             to="https://drive.google.com/file/d/1CqqmB8GQLBo0HdgTg4ulLfFsFkjdkyxd/view"
                             target='_blank'
