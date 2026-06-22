@@ -16,15 +16,15 @@ const Experience = () => {
             ]
         },
 
-        {
-            role: ".NET Developer Intern",
-            company: "Koenig Solutions",
-            period: "April 2023 - July 2023",
-            description: [
-                "Assisted in the development of client websites using HTML, CSS, and JavaScript.",
-                "Fixed bugs and maintained existing codebases."
-            ]
-        }
+        // {
+        //     role: ".NET Developer Intern",
+        //     company: "Koenig Solutions",
+        //     period: "April 2023 - July 2023",
+        //     description: [
+        //         "Assisted in the development of client websites using HTML, CSS, and JavaScript.",
+        //         "Fixed bugs and maintained existing codebases."
+        //     ]
+        // }
     ];
 
     return (

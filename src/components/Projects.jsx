@@ -5,6 +5,7 @@ import PixelAI from '../assets/PixelAI.png';
 import dropshare from '../assets/dropshare.png';
 import ecommerce from '../assets/ecommerce.png';
 import movieapp from '../assets/movieapp.png';
+import InsightAI from "../assets/InsightAI.png"
 
 const Projects = () => {
  
@@ -14,6 +15,26 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
+            title: "Insight AI (Full-Stack RAG Application)",
+            category: "fullstack",
+            image: InsightAI,
+            description: "Insight AI is a production-ready, full-stack Retrieval-Augmented Generation (RAG) platform that enables users to upload various document formats and query their contents interactively using Gemini AI models.",
+            technologies: ["React", "Python", "FastAPI", "Tailwind CSS", "AWS S3", "Dynamodb" ,"Langchain"],
+            github: "https://github.com/shivamverma-9984/GENAI-RAG-Application",
+            live: "https://insightdoc.netlify.app/",
+            features: [
+                "Secure user-isolated object storage for persistent documents",
+                " Recursive text partitioning (RecursiveCharacterTextSplitter) with overlap to preserve semantic context.",
+                "Vectorizing text chunks using models/gemini-embedding-001",
+                "Image Enhancement",
+                "AI Background Removal",
+                "One-Click Download",
+                "Real-Time Editing",
+                "User Authentication"
+            ]
+        },
+        {
+            id: 2,
             title: "PixelAI",
             category: "fullstack",
             image: PixelAI,
@@ -31,7 +52,7 @@ const Projects = () => {
             ]
         },
         {
-            id: 2,
+            id: 3,
             title: "DropShare App",
             category: "fullstack",
             image: dropshare,
@@ -48,7 +69,7 @@ const Projects = () => {
             ]
         },
         {
-            id: 3,
+            id: 4,
             title: "ResumeHive",
             category: "fullstack",
             image: AIresumeBuilder,
@@ -66,7 +87,7 @@ const Projects = () => {
             ]
         },
         {
-            id: 4,
+            id: 5,
             title: "E-Commerce App",
             category: "frontend",
             image: ecommerce,
@@ -83,7 +104,7 @@ const Projects = () => {
             ]
         },
         {
-            id: 5,
+            id: 6,
             title: "Movie App",
             category: "frontend",
             image: movieapp,
@@ -100,7 +121,7 @@ const Projects = () => {
             ]
         },
         {
-            id: 6,
+            id: 7,
             title: "Quiz Website",
             category: "frontend",
             image: "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -161,16 +182,16 @@ const Projects = () => {
                                 </p>
 
                                 <div className="flex flex-wrap gap-2 mb-6 mt-auto">
-                                    {project.technologies.slice(0, 4).map(tag => (
+                                    {project.technologies.map(tag => (
                                         <span key={tag} className="text-xs px-3 py-1 bg-gray-50 text-text-muted rounded-full border border-gray-100 font-medium">
                                             {tag}
                                         </span>
                                     ))}
-                                    {project.technologies.length > 4 && (
+                                    {/* {project.technologies.length > 4 && (
                                         <span className="text-xs px-3 py-1 bg-gray-50 text-text-muted rounded-full border border-gray-100 font-medium">
                                             +{project.technologies.length - 4}
                                         </span>
-                                    )}
+                                    )} */}
                                 </div>
 
                                 <div className="flex justify-between items-center border-t border-gray-50 mt-auto">
